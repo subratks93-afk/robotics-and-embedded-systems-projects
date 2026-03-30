@@ -55,7 +55,7 @@ The system integrates an external servo controller, wireless communication, and 
   
 * Display: 3-digit 7-segment voltage display
   
-* Switch: Two-way ON/OFF toggle switch
+* Switch: Two-way three pin ON/OFF toggle switch
   
 * Battery: LiPo Battery (7.4V – 12V, ≥ 6000mAh)
   
