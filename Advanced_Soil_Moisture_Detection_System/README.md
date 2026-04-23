@@ -35,6 +35,7 @@ Real-time monitoring via Serial output
 Arduino Uno
 
 Soil Moisture Sensor (Digital Output)
+
 8×8 LED Dot Matrix (MAX7219)
 
 L293D Motor Driver
