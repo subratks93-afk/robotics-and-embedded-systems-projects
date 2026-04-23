@@ -1,7 +1,7 @@
 
 🤖 Advanced Wall Follower Robot
 
-An intelligent robotic system designed to navigate along walls by maintaining a constant distance using sensor-based feedback. The robot uses ultrasonic/IR sensors and control logic to follow walls smoothly while avoiding obstacles, making it suitable for autonomous navigation tasks.
+An intelligent robotic system designed to navigate along walls by maintaining a constant distance using sensor-based feedback. The robot uses IR sensors and control logic to follow walls smoothly while avoiding obstacles, making it suitable for autonomous navigation tasks.
 
 ⚙️ How It Works
 
