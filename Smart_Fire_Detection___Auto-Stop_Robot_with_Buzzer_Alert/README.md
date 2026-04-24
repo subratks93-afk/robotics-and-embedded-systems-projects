@@ -54,6 +54,10 @@ Smart emergency response robots
 
 Educational robotics projects
 
+## 🎥 Demo Video
+
+[▶️ Watch Demo](https://drive.google.com/file/d/11QBmivj3_q_cIv_83HhZNVTTcNAYOkwN/view?usp=drive_link))
+
 🔮 Future Improvements
 
 Add water pump for fire suppression
