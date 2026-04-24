@@ -109,10 +109,12 @@ hexapod_robot/
 5. Upload code using Arduino IDE
 6. Control robot via Bluetooth commands
 
+## 🎥 Demo Video
+
+▶️ Watch Demo: https://drive.google.com/file/d/1DVtB2vYeuB8lYCJvjYk0YoT848yuNnEt/view?usp=drive_link
 
 
 🔮 Future Improvements
-
 
 * Autonomous navigation using sensors
   
