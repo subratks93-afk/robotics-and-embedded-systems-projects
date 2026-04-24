@@ -129,6 +129,9 @@ blueValue < 80
 
 redValue < 80
 
+## 🎥 Demo Video
+
+▶️ Watch Demo: https://drive.google.com/file/d/1831c97YwwYt94V4btDdL54r_nPCLlU93/view?usp=drive_link
 
 
 ## 🔥 Applications
