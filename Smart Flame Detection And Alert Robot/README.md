@@ -11,7 +11,7 @@ The robot continuously monitors its surroundings using a flame sensor.
 When a flame is detected, the Arduino UNO stops the robot, activates the buzzer, and displays an alert message on the 16×2 LCD.
 
 When no flame is detected, the buzzer remains OFF and the robot moves forward.
-
+```
 ## ✨ Features
 
 - Flame detection
@@ -22,7 +22,7 @@ When no flame is detected, the buzzer remains OFF and the robot moves forward.
 - L293D motor driver
 - Arduino UNO based control
 - Battery-powered mobile platform
-
+  
 ## 🧰 Components Required
 
 - Arduino UNO
