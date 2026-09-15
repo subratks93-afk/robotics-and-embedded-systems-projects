@@ -67,6 +67,7 @@ Arduino processes the command
 Signals are sent to USC-32 servo controller
 Servo motors execute coordinated movement
 Voltage display monitors battery status
+
 📂 Project Structure
 
 hexapod_robot/
