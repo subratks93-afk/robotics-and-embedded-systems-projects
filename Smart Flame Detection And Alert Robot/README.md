@@ -1,10 +1,7 @@
+# 🔥 Smart Flame Detection and Alert Robot
 
-# Smart Flame Detection and Alert Robot
-```
-A mobile fire-detection robot based on **Arduino UNO** that detects flames using a flame sensor and provides an immediate visual and audible alert through a 16×2 LCD and buzzer.
+A mobile fire-detection robot based on **Arduino UNO** that detects flames using a flame sensor and provides an immediate visual and audible alert.
 
-```
-``
 ## 🔥 Project Overview
 
 The robot continuously monitors its surroundings using a flame sensor.
@@ -12,7 +9,7 @@ The robot continuously monitors its surroundings using a flame sensor.
 When a flame is detected, the Arduino UNO stops the robot, activates the buzzer, and displays an alert message on the 16×2 LCD.
 
 When no flame is detected, the buzzer remains OFF and the robot moves forward.
-```
+
 ## ✨ Features
 
 - Flame detection
@@ -23,55 +20,43 @@ When no flame is detected, the buzzer remains OFF and the robot moves forward.
 - L293D motor driver
 - Arduino UNO based control
 - Battery-powered mobile platform
-  
+
 ## 🧰 Components Required
 
-- Arduino UNO
-- Flame Sensor
-- 16×2 LCD Display
-- Buzzer
-- L293D Motor Driver
-- DC Motors
-- Robot Chassis
-- Battery
-- Connecting Wires
+- Arduino UNO × 1
+- Flame Sensor × 1
+- 16×2 LCD Display × 1
+- Buzzer × 1
+- L293D Motor Driver × 1
+- DC Gear Motors × 2
+- Robot Chassis × 1
+- Battery × 1
 
 ## ⚙️ Working
 
-1. The Arduino UNO continuously reads the flame sensor.
-2. The flame sensor output is monitored digitally.
-3. When a flame is detected:
-   - The robot stops.
-   - The buzzer turns ON.
-   - The LCD displays a flame warning.
-4. When no flame is detected:
-   - The buzzer turns OFF.
-   - The robot moves forward.
-   - The LCD displays the normal operating condition.
-```
-## 📺 LCD Messages
+1. The flame sensor continuously monitors for a flame.
+2. If a flame is detected, the robot stops.
+3. The buzzer turns ON to provide an alert.
+4. The LCD displays **"ALERT! FLAME DETECTED"**.
+5. When no flame is detected, the buzzer remains OFF.
+6. The robot moves forward and the LCD displays the normal operating status.
 
-### System Startup
+## 🔌 Circuit Diagram
 
-```text
-FIRE DETECTOR
-SYSTEM READY
+![Circuit Diagram](circuit_diagram.png)
 
-ALERT! FLAME
-DETECTED
+## 🎥 Demo Video
 
-NO FIRE
-MOVING FORWARD
-```
+[▶️ Watch Demo Video](YOUR_GOOGLE_DRIVE_LINK)
 
-💻 Arduino Code
+## 💻 Arduino Code
 
-The complete Arduino source code is provided in the .ino file included in this repository.
+The complete Arduino source code is provided in the `.ino` file included in this repository.
 
-🛠️ Platform
+## 🛠️ Platform
 
-Arduino UNO
+**Arduino UNO**
 
-📌 Project Type
+## 📌 Project Type
 
-Arduino Robotics | Flame Detection | Alert System
+Arduino Robotics | Flame Detection | Safety & Alert System
