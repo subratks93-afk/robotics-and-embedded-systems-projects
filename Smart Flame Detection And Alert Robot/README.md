@@ -5,6 +5,7 @@ A mobile fire-detection robot based on **Arduino UNO** that detects flames using
 
 
 ```
+```
 ## 🔥 Project Overview
 
 The robot continuously monitors its surroundings using a flame sensor.
