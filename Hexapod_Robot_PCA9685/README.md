@@ -276,7 +276,7 @@ Bluetooth Device
 
 ## 🔌 Circuit Diagram
 
-![Circuit Diagram](circuit_diagram.png)
+![Circuit Diagram](Hexapod Circuit.png)
 
 ## 📂 Project Structure
 
