@@ -83,6 +83,7 @@ Connect HC-05 Bluetooth module
 Power system using LiPo battery
 Upload code using Arduino IDE
 Control robot via Bluetooth commands
+
 🎥 Demo Video
 ▶️ Watch Demo: https://drive.google.com/file/d/1DVtB2vYeuB8lYCJvjYk0YoT848yuNnEt/view?usp=drive_link
 
