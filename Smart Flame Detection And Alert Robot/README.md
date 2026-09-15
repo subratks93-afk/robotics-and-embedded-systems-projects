@@ -41,14 +41,6 @@ When no flame is detected, the buzzer remains OFF and the robot moves forward.
 5. When no flame is detected, the buzzer remains OFF.
 6. The robot moves forward and the LCD displays the normal operating status.
 
-## 🔌 Circuit Diagram
-
-![Circuit Diagram](circuit_diagram.png)
-
-## 🎥 Demo Video
-
-[▶️ Watch Demo Video](YOUR_GOOGLE_DRIVE_LINK)
-
 ## 💻 Arduino Code
 
 The complete Arduino source code is provided in the `.ino` file included in this repository.
