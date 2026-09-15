@@ -129,7 +129,7 @@ The voltage display allows the user to observe the battery status while controll
 
 The robot uses a **LiPo battery** as its primary power source.
 
-```
+
 
 ## ▶️ How to Run
 
