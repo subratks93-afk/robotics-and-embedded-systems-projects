@@ -4,6 +4,7 @@
 A mobile fire-detection robot based on **Arduino UNO** that detects flames using a flame sensor and provides an immediate visual and audible alert through a 16×2 LCD and buzzer.
 
 ```
+``
 ## 🔥 Project Overview
 
 The robot continuously monitors its surroundings using a flame sensor.
