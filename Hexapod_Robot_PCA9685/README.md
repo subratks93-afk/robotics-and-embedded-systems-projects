@@ -302,10 +302,6 @@ Hexapod_Robot_PCA9685/
 10. Send the required movement commands.
 11. The Arduino processes the commands and controls the 18 servos through the PCA9685 boards.
 
-## 🎥 Demo Video
-
-[▶️ Watch Demo Video](YOUR_GOOGLE_DRIVE_LINK)
-
 ## 💻 Arduino Code
 
 The complete Arduino source code is provided in the `.ino` file included in this repository.
