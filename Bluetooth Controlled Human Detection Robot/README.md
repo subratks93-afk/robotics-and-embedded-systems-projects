@@ -90,3 +90,15 @@ Right
 
 SakRobotix
 Stopped
+
+💻 Arduino Code
+
+The complete Arduino source code is provided in the .ino file included in this repository.
+
+🛠️ Platform
+
+Arduino UNO
+
+📌 Project Type
+
+Arduino Robotics | Bluetooth Control | Human/Object Detection
