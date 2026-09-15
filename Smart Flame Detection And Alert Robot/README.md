@@ -5,7 +5,7 @@
 # Smart Flame Detection and Alert Robot
 
 A mobile fire-detection robot based on **Arduino UNO** that detects flames using a flame sensor and provides an immediate visual and audible alert through a 16×2 LCD and buzzer.
-
+```
 ## 🔥 Project Overview
 
 The robot continuously monitors its surroundings using a flame sensor.
@@ -49,7 +49,7 @@ When no flame is detected, the buzzer remains OFF and the robot moves forward.
    - The buzzer turns OFF.
    - The robot moves forward.
    - The LCD displays the normal operating condition.
-
+```
 ## 📺 LCD Messages
 
 ### System Startup
