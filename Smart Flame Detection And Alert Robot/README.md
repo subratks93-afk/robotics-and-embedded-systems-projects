@@ -17,9 +17,6 @@ When no flame is detected, the buzzer remains OFF and the robot moves forward.
 - Audible alert using buzzer
 - 16×2 LCD status display
 - Automatic forward movement when no flame is detected
-- L293D motor driver
-- Arduino UNO based control
-- Battery-powered mobile platform
 
 ## 🧰 Components Required
 
@@ -32,14 +29,24 @@ When no flame is detected, the buzzer remains OFF and the robot moves forward.
 - Robot Chassis × 1
 - Battery × 1
 
+## 📺 LCD Messages
+
+The 16×2 LCD displays the following status messages:
+
+| Condition | LCD Display |
+|---|---|
+| System startup | `FIRE DETECTOR` / `SYSTEM READY` |
+| Flame detected | `ALERT! FLAME` / `DETECTED` |
+| No flame detected | `NO FIRE` / `MOVING FORWARD` |
+
 ## ⚙️ Working
 
 1. The flame sensor continuously monitors for a flame.
 2. If a flame is detected, the robot stops.
-3. The buzzer turns ON to provide an alert.
-4. The LCD displays **"ALERT! FLAME DETECTED"**.
+3. The buzzer turns ON.
+4. The LCD displays the flame detection alert.
 5. When no flame is detected, the buzzer remains OFF.
-6. The robot moves forward and the LCD displays the normal operating status.
+6. The robot moves forward.
 
 ## 💻 Arduino Code
 
