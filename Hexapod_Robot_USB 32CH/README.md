@@ -1,111 +1,182 @@
-🕷️ Hexapod Robot
+# 🕷️ Hexapod Robot – USB 32CH Servo Controller
 
-📌 Overview
+A six-legged robotic platform designed and controlled using an **Arduino UNO**, **USC-32 servo controller**, and **MG995 high-torque servo motors**. The robot uses a **tripod gait mechanism** to achieve stable and coordinated walking.
 
-This project focuses on designing and controlling a six-legged (hexapod) robot using servo motors and embedded systems. The robot uses a tripod gait mechanism for stable walking and demonstrates real-world implementation of motion control and multi-actuator coordination.
+The system integrates **Bluetooth wireless control**, external multi-servo control, and battery voltage monitoring for reliable robotic operation.
 
-The system integrates an external servo controller, wireless communication, and power monitoring to achieve efficient and reliable operation.
+## 📌 Project Overview
 
-🚀 Features
+This project focuses on the design and implementation of a **six-legged (hexapod) robot** using servo motors and embedded control systems.
 
-Six-legged walking robot (hexapod structure)
+The robot uses a **tripod gait mechanism**, where the six legs are divided into two groups. Each group alternately moves while the other supports the robot body, providing stable locomotion.
 
-Tripod gait mechanism for stable locomotion
+An **USC-32 servo controller** is used to control the multiple servo motors, while an **HC-05 Bluetooth module** provides wireless command input.
 
-Forward and turning movements
+A 3-digit voltage display is used to monitor the robot's battery voltage.
 
-Wireless control using Bluetooth
+## 🚀 Features
 
-External servo controller for smooth multi-servo operation
+- Six-legged hexapod robotic structure
+- Tripod gait mechanism for stable locomotion
+- Coordinated multi-servo movement
+- Forward and backward movement
+- Left and right turning
+- Wireless control using HC-05 Bluetooth
+- External USC-32 servo controller
+- MG995 high-torque servo motors
+- Real-time battery voltage monitoring
+- Battery-powered operation
+- Arduino UNO based control system
 
-Real-time battery voltage monitoring
+## 🧠 Technologies Used
 
-Stable power management system
+- Arduino UNO
+- Embedded C / Arduino Programming
+- Arduino IDE
+- Servo Motor Control
+- Tripod Gait Algorithm
+- Robotics Motion Control
+- Bluetooth Communication
+- Multi-Actuator Coordination
 
-🧠 Technologies Used
+## 🔧 Hardware Components
 
-Arduino UNO
+| Component | Quantity |
+|---|---:|
+| Arduino UNO | 1 |
+| USC-32 Servo Controller | 1 |
+| MG995 High-Torque Servo Motors | 18 |
+| HC-05 Bluetooth Module | 1 |
+| 3-Digit 7-Segment Voltage Display | 1 |
+| Two-Way 3-Pin ON/OFF Toggle Switch | 1 |
+| LiPo Battery | 1 |
 
-Embedded C (Arduino IDE)
+### Battery
 
-Servo Motor Control
+- Voltage: **7.4V – 12V**
+- Capacity: **≥ 6000mAh**
 
-Robotics Motion Algorithms
+## ⚙️ Working Principle
 
-🔧 Hardware Components
+The robot uses a **tripod gait algorithm** to maintain balance while walking.
 
-Microcontroller: Arduino UNO
+The 18 servo motors control the three joints of each of the six legs.
 
-Servo Controller: USC-32 Servo Controller
+### 🦿 Tripod Gait
 
-Servo Motors: MG995 High Torque Servos
+The six legs are divided into two groups:
 
-Communication: HC-05 Bluetooth Module
+- **Tripod A**
+- **Tripod B**
 
-Display: 3-digit 7-segment voltage display
+At any given time:
 
-Switch: Two-way three pin ON/OFF toggle switch
+1. One tripod moves the legs into the next position.
+2. The other tripod supports the robot body.
+3. The supporting tripod then moves.
+4. The cycle repeats to create continuous walking motion.
 
-Battery: LiPo Battery (7.4V – 12V, ≥ 6000mAh)
+This alternating movement provides stability and coordinated locomotion.
 
-⚙️ Working Principle
+## 🎮 Control Flow
 
-The robot operates using a tripod gait algorithm, which ensures balance and smooth movement.
+The robot is controlled wirelessly using the HC-05 Bluetooth module.
 
-Movement Logic:
+```text
+        Bluetooth Command
+               │
+               ▼
+        HC-05 Bluetooth
+               │
+               ▼
+          Arduino UNO
+               │
+               ▼
+       USC-32 Servo Controller
+               │
+               ▼
+        18 Servo Motors
+               │
+               ▼
+        Hexapod Movement
+```
 
-The six legs are divided into two groups (Tripod A & Tripod B)
+The Arduino receives movement commands through Bluetooth and sends the corresponding servo commands to the USC-32 controller.
 
-At any time, one tripod moves while the other supports the body
+The servo controller then generates the required signals for coordinated movement of the 18 servos.
 
-This alternating motion creates stable walking
+## 🎮 Bluetooth Commands
 
-Control Flow:
+The robot supports wireless movement commands through the HC-05 Bluetooth module.
 
-Commands are sent via Bluetooth (HC-05)
-Arduino processes the command
-Signals are sent to USC-32 servo controller
-Servo motors execute coordinated movement
-Voltage display monitors battery status
+| Command | Function |
+|---|---|
+| `F` | Forward |
+| `B` | Backward |
+| `L` | Turn Left |
+| `R` | Turn Right |
+| `S` | Home / Stand Position |
+| `U` | Move Up |
+| `D` | Move Down |
+| `T` | Twist Movement |
+| `W` | Hello Movement |
 
-📂 Project Structure
+## 🔋 Power Monitoring
 
-hexapod_robot/
+A **3-digit 7-segment voltage display** is used to monitor the battery voltage during operation.
 
+The voltage display allows the user to observe the battery status while controlling the robot.
+
+The robot uses a **LiPo battery** as its primary power source.
+
+## 📂 Project Structure
+
+```text
+Hexapod_Robot_USB_32CH/
 │
+├── README.md
+├── hexapod.ino
+└── circuit_diagram.png
+```
 
-├── hexapod.ino # Main Arduino code
+## ▶️ How to Run
 
-▶️ How to Run
+1. Connect all 18 MG995 servo motors to the **USC-32 servo controller**.
+2. Connect the USC-32 servo controller to the **Arduino UNO**.
+3. Connect the **HC-05 Bluetooth module** to the Arduino.
+4. Connect the battery and power management system.
+5. Verify all servo connections and power connections.
+6. Upload `hexapod.ino` using the **Arduino IDE**.
+7. Pair a Bluetooth-enabled device with the HC-05 module.
+8. Send the required movement commands.
+9. The Arduino processes the commands and controls the robot through the USC-32 controller.
 
-Connect all servo motors to USC-32 controller
-Interface USC-32 with Arduino UNO
-Connect HC-05 Bluetooth module
-Power system using LiPo battery
-Upload code using Arduino IDE
-Control robot via Bluetooth commands
+## 🎥 Demo Video
 
-🎥 Demo Video
-▶️ Watch Demo: https://drive.google.com/file/d/1DVtB2vYeuB8lYCJvjYk0YoT848yuNnEt/view?usp=drive_link
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1DVtB2vYeuB8lYCJvjYk0YoT848yuNnEt/view?usp=drive_link)
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
-Autonomous navigation using sensors
+- Autonomous navigation using sensors
+- Camera integration for vision-based control
+- AI-based gait optimization
+- Mobile application for wireless control
+- Terrain-adaptive walking
+- Obstacle detection and avoidance
+- ROS/ROS 2 integration
+- Advanced gait planning
+- IMU-based balance control
 
-Camera integration for vision-based control
+## 👨‍💻 Author
 
-AI-based gait optimization
+**Subrat**
 
-Mobile app control instead of basic Bluetooth
+AI & Robotics Enthusiast
 
-Terrain-adaptive walking
+## ⭐ About This Project
 
-👨‍💻 Author
+This project demonstrates the practical implementation of a **multi-legged robotic system** using real-world hardware and coordinated servo control.
 
-Subrat
+It highlights key robotics concepts including **servo synchronization, tripod gait algorithms, wireless communication, multi-actuator coordination, and embedded control systems**.
 
-AI & Robotics Enthusiast 🚀
-
-⭐ About This Project
-
-This project demonstrates practical implementation of a multi-legged robotic system with real hardware integration. It highlights concepts like servo synchronization, gait algorithms, and embedded control systems, forming a strong foundation for advanced robotics development.
+The project provides a strong foundation for developing more advanced **autonomous and intelligent robotic systems**.
