@@ -48,6 +48,10 @@ The 16×2 LCD displays the following status messages:
 5. When no flame is detected, the buzzer remains OFF.
 6. The robot moves forward.
 
+## Demo Video
+
+[▶️ Watch Demo Video](https://drive.google.com/drive/u/0/folders/1RrT1dFiKXLl6gCCoFAbCKo7-rh9qPY-y)
+
 ## 💻 Arduino Code
 
 The complete Arduino source code is provided in the `.ino` file included in this repository.
