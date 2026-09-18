@@ -50,7 +50,7 @@ The 16×2 LCD displays the following status messages:
 
 ## Demo Video
 
-[▶️ Watch Demo Video](https://drive.google.com/drive/u/0/folders/1RrT1dFiKXLl6gCCoFAbCKo7-rh9qPY-y)
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1jaRIe7v6F1MjfC9YSoCrXhepoN7kEf_8/view?usp=sharing)
 
 ## 💻 Arduino Code
 
