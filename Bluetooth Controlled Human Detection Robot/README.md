@@ -96,6 +96,10 @@ Stopped
 
 The complete Arduino source code is provided in the .ino file included in this repository.
 
+## 🎥 Demo Video
+
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1aWCmaEoN1_2-3UPVE0JnDwED162QUAPj/view?usp=sharing)
+
 ## 🛠️ Platform
 
 Arduino UNO
