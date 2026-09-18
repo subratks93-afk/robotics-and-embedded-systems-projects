@@ -1,58 +1,48 @@
+# 🤖 Wi-Fi Controlled Robot
 
-🌐 WiFi Controlled Robot
+## Overview
 
-A wireless robotic system controlled over WiFi using a NodeMCU (ESP8266) microcontroller. The robot can be operated remotely through a web interface or mobile application, allowing real-time control without the need for Bluetooth or physical connections.
+A Wi-Fi controlled robot built using an **ESP8266 NodeMCU**.  
+The robot can be controlled wirelessly through a web-based interface.
 
-⚙️ How It Works
+## Features
 
-The NodeMCU connects to a WiFi network and hosts a web server or communicates with a mobile app. User commands (forward, backward, left, right, stop) are sent over WiFi and received by the NodeMCU. These commands are processed and used to control the motor driver, enabling real-time movement of the robot.
+- Wi-Fi based wireless control
+- Forward, backward, left and right movement
+- Stop control
+- OLED display for robot status
+- Buzzer indication
 
-🔹 Features
+## Components
 
-Wireless control using WiFi
+- ESP8266 NodeMCU
+- OLED Display
+- Motor Driver
+- DC Geared Motors
+- Buzzer
+- Robot Chassis
+- Battery
 
-Remote operation via web browser or mobile app
+## Software
 
-Real-time response to user commands
+- Arduino IDE
+- ESP8266
+- Adafruit GFX Library
+- Adafruit SSD1306 Library
 
-No range limitation within network coverage
+## Working
 
-Simple and scalable system
+The ESP8266 creates a Wi-Fi network and provides a simple web interface for controlling the robot. Movement commands are processed by the ESP8266 to control the motors. The OLED displays the current robot status.
 
-🧩 Components Used
 
-NodeMCU (ESP8266)
+## Demo Video
 
-Motor Driver (L293D)
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1KFVGRx64_uLVIX-BZxv1ChzG4BX-ayVB/view)
 
-DC Motors
+## Project Type
 
-Chassis & Wheels
+**Wi-Fi Controlled Robotics Project**
 
-Buzzer
+## Author
 
-Power Supply (Battery)
-
-🚀 Applications
-
-Remote-controlled robots
-
-IoT-based robotics systems
-
-Home automation robots
-
-Surveillance and monitoring robots
-
-## 🎥 Demo Video
-
-▶️ Watch Demo: https://drive.google.com/file/d/1KFVGRx64_uLVIX-BZxv1ChzG4BX-ayVB/view?usp=drive_link
-
-🔮 Future Improvements
-
-Add camera for live video streaming
-
-Voice control integration
-
-Cloud-based control (IoT platforms)
-
-Obstacle avoidance system
+**Subrat Kumar Singh**
