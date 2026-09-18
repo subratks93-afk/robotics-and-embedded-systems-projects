@@ -142,6 +142,10 @@ The complete Arduino source code is provided in the `.ino` file included in this
 
 **Arduino File:** `Smart_Navigator_Robot.ino`
 
+## 🎥 Demo Video
+
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1-da97C4_QLTYWbnUnoqRzMxvJzaHUlL1/view?usp=sharing)
+
 ## 🛠️ Platform
 
 **Arduino UNO**
