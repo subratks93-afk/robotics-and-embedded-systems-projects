@@ -95,6 +95,10 @@ The complete Arduino source code is provided in the `.ino` file included in this
 
 `Soil_Monitoring_Using__4__digit.ino`
 
+## 🎥 Demo Video
+
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1HB3mnjJyW6idw7h3gFzMjWKeb-9BJc-V/view?usp=sharing)
+
 ## 🛠️ Platform
 
 **Arduino UNO**
